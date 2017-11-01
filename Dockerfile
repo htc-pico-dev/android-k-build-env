@@ -35,6 +35,10 @@ RUN apt-get update \
     atool \
     bc \
     liblz4-tool \
+    imagemagick \
+    lzop \
+    pngcrush \
+    ccache \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
